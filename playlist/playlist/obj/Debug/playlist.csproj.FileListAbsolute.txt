@@ -1,0 +1,5 @@
+C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\obj\Debug\playlist.csprojResolveAssemblyReference.cache
+C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\bin\Debug\playlist.exe
+C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\bin\Debug\playlist.pdb
+C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\obj\Debug\playlist.exe
+C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\obj\Debug\playlist.pdb
