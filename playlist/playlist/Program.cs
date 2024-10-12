@@ -15,10 +15,19 @@ namespace playlist
 	{
 		private static int SelectedIndex;
 		public static LinkedList<string> playList = new LinkedList<string>();
-		
+		private static bool Once = false;	
 		public static void Main()
 		{
-			Console.CursorVisible = false;
+            if (!Once)
+            {
+				playList.AddLast("The Way Life Goes");
+                playList.AddLast("MY EYES");
+                playList.AddLast("BABY I'M BACK");
+                playList.AddLast("Glock In My Lap");
+                playList.AddLast("Can't Help Falling in Love");
+				Once = true;
+            }
+            Console.CursorVisible = false;
 			int x = Run();
 			
 			if ( x == 0)

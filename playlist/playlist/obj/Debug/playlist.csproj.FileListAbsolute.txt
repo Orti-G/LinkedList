@@ -3,3 +3,10 @@ C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\bin\Debu
 C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\bin\Debug\playlist.pdb
 C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\obj\Debug\playlist.exe
 C:\Users\CCSLAB3_PC13\Documents\SharpDevelop Projects\playlist\playlist\obj\Debug\playlist.pdb
+C:\Users\ortig\source\repos\LinkedList\playlist\playlist\bin\Debug\playlist.exe.config
+C:\Users\ortig\source\repos\LinkedList\playlist\playlist\bin\Debug\playlist.exe
+C:\Users\ortig\source\repos\LinkedList\playlist\playlist\bin\Debug\playlist.pdb
+C:\Users\ortig\source\repos\LinkedList\playlist\playlist\obj\Debug\playlist.csproj.AssemblyReference.cache
+C:\Users\ortig\source\repos\LinkedList\playlist\playlist\obj\Debug\playlist.csproj.CoreCompileInputs.cache
+C:\Users\ortig\source\repos\LinkedList\playlist\playlist\obj\Debug\playlist.exe
+C:\Users\ortig\source\repos\LinkedList\playlist\playlist\obj\Debug\playlist.pdb
