@@ -42,8 +42,7 @@ namespace playlist
 				Delete.DeleteContent();
 			}
 			else{
-				Play playSection = new Play();
-				playSection.PlayMusic();
+                Play.PlayMusic();
 			}
 			Console.ReadKey(true);
 		}

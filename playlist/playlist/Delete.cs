@@ -123,13 +123,13 @@ namespace playlist
 					ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 					keyPressed = keyInfo.Key;
 					
-					if (keyPressed == ConsoleKey.DownArrow)
+					if (keyPressed == ConsoleKey.S)
 					{
 						SelectedIndex ++;
 						
 						
 					}
-					else if (keyPressed == ConsoleKey.UpArrow)
+					else if (keyPressed == ConsoleKey.W)
 					{
 						
 						SelectedIndex --;
@@ -138,7 +138,7 @@ namespace playlist
 					
 					
 					if (SelectedIndex == -1){
-						SelectedIndex = 2;
+						SelectedIndex = musics.Count;
 					}else if (SelectedIndex == Program.playList.Count + 1)
 					{
 						SelectedIndex = 0;

@@ -7,6 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections.Generic;
 using System.Threading;
 namespace playlist
 {
@@ -15,17 +16,28 @@ namespace playlist
 	/// </summary>
 	public class Play
 	{
-		private static string musicChoice;
+		public static string musicChoice;
 		private static int BottomL;
 		private static int BottomR;
-		private static int TopR;
+		private static int TopL;
 		private static int SelectedIndex;
-		private static bool Once = false;
-		public void PlayMusic(){
+        public static LinkedList<string> queueList = new LinkedList<string>();
+        private static bool Once = false;
+		public static void PlayMusic(){
 			Console.Clear();
 			Console.WriteLine("What Music do you want to play?");
 			musicChoice = Console.ReadLine();
 			if (Program.playList.Contains(musicChoice)){
+				foreach (string s in Program.playList) {
+					if (s == musicChoice)
+					{
+						queueList.AddFirst(s);
+					}
+					else 
+					{
+						queueList.AddLast(s);
+					}
+				}
 				Console.WriteLine("Please Wait");
 				Thread.Sleep(2000);
 				Flow();
@@ -44,13 +56,15 @@ namespace playlist
 		
 		public static void Flow(){
 			int x = Run();
+			
 		}
 		public static void MusicLoaded(){
 			Methods method = new Methods();
 			Console.Clear();
 			borderBox();
-			
-			string text = "Now Playing";
+			Options(SelectedIndex);
+
+            string text = "Now Playing";
 			if (Once == false) {
 				method.WriteAt(text,Console.WindowWidth/2 - (text.Length/2),15);
 				Thread.Sleep(1000);
@@ -75,29 +89,29 @@ namespace playlist
 			{
 				Console.ForegroundColor = ConsoleColor.Black;
 				Console.BackgroundColor = ConsoleColor.White;
-				method.WriteAt(first,TopR + 1,BottomL - 1);
+				method.WriteAt(first, TopL + 1,BottomL - 1);
 				Console.ResetColor();
-				Console.WriteLine(second);
-				Console.WriteLine(third);
+                method.WriteAt(second, Console.WindowWidth / 2 - (second.Length / 2), BottomL - 1);
+                method.WriteAt(third,BottomR - third.Length, BottomL - 1);
 			}
 			
 			else if (SelectedIndex == 1)
 			{
 				
-				method.WriteAt(first,TopR + 1,BottomL - 1);
+				method.WriteAt(first, TopL + 1,BottomL - 1);
 				Console.ForegroundColor = ConsoleColor.Black;
 				Console.BackgroundColor = ConsoleColor.White;
-				Console.WriteLine(second, Console.WindowWidth/2 - (second.Length/2),BottomL - 1);
+                method.WriteAt(second, Console.WindowWidth/2 - (second.Length/2),BottomL - 1);
 				Console.ResetColor();
-				Console.WriteLine(third);
+                method.WriteAt(third, BottomR - third.Length, BottomL - 1);
 			}
 			else{
-				method.WriteAt(first,TopR + 1,BottomL - 1);
-				Console.WriteLine(second, Console.WindowWidth/2 - (second.Length/2),BottomL - 1);
-				Console.ForegroundColor = ConsoleColor.Black;
+				method.WriteAt(first,TopL + 1,BottomL - 1);
+                method.WriteAt(second, Console.WindowWidth / 2 - (second.Length / 2), BottomL - 1);
+                Console.ForegroundColor = ConsoleColor.Black;
 				Console.BackgroundColor = ConsoleColor.White;
-				Console.WriteLine(third, BottomR - third.Length,BottomL - 1);
-				Console.ResetColor();
+                method.WriteAt(third, BottomR - third.Length, BottomL - 1);
+                Console.ResetColor();
 			}
 			
 			
@@ -117,13 +131,13 @@ namespace playlist
 					ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 					keyPressed = keyInfo.Key;
 					
-					if (keyPressed == ConsoleKey.DownArrow)
+					if (keyPressed == ConsoleKey.D)
 					{
 						SelectedIndex ++;
 						
 						
 					}
-					else if (keyPressed == ConsoleKey.UpArrow)
+					else if (keyPressed == ConsoleKey.A)
 					{
 						
 						SelectedIndex --;
@@ -155,12 +169,14 @@ namespace playlist
 			for (int i = 0; i < 15; i++) {
    				method.WriteAt("*",Console.WindowWidth/2 - i ,10);
    				topL = Console.WindowWidth/2 - i;
-   			}
+				TopL = topL;
+
+               }
    			
    			for (int i = 0; i < 15; i++) {
 				method.WriteAt("*",Console.WindowWidth/2 + i ,10);
    				topR = Console.WindowWidth/2 + i;	
-   				TopR = topR;
+   				
    				
    			}
 			
@@ -176,8 +192,13 @@ namespace playlist
    				method.WriteAt("*",topL + i,bottomL);
    				BottomR =topL + i;
 			}
-			
-			for (int i = 0; i < 15; i++) {
+
+            for (int i = 0; i < 30; i++)
+            {
+                method.WriteAt("*", topL + i, bottomL - 2);
+            }
+
+            for (int i = 0; i < 15; i++) {
    				method.WriteAt("*",Console.WindowWidth/2 + 15 ,bottomL - i);
    			}
 		}
