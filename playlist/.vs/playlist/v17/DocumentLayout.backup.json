@@ -34,11 +34,12 @@
               "Title": "Play.cs",
               "DocumentMoniker": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Play.cs",
               "RelativeDocumentMoniker": "playlist\\Play.cs",
-              "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Play.cs*",
-              "RelativeToolTip": "playlist\\Play.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAEYAAAAlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Play.cs",
+              "RelativeToolTip": "playlist\\Play.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T18:04:20.089Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -85,7 +86,7 @@
               "RelativeDocumentMoniker": "playlist\\SongQueue.cs",
               "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\SongQueue.cs",
               "RelativeToolTip": "playlist\\SongQueue.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwHcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T08:02:45.62Z",
               "EditorCaption": ""
@@ -98,7 +99,7 @@
               "RelativeDocumentMoniker": "playlist\\Delete.cs",
               "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Delete.cs",
               "RelativeToolTip": "playlist\\Delete.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwDUAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwB4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T18:06:24.393Z",
               "EditorCaption": ""
@@ -111,7 +112,7 @@
               "RelativeDocumentMoniker": "playlist\\Program.cs",
               "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Program.cs",
               "RelativeToolTip": "playlist\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T18:01:55.081Z",
               "EditorCaption": ""

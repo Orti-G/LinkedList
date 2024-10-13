@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|solutionrelative:playlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|c:\\users\\ortig\\source\\repos\\linkedlist\\playlist\\playlist\\songqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|solutionrelative:playlist\\songqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\play.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|solutionrelative:playlist\\play.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|solutionrelative:playlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9493546C-7A9A-4E13-9AD3-037FB6ECE6C8}|playlist\\playlist.csproj|C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 312,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Play.cs",
+              "DocumentMoniker": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Play.cs",
+              "RelativeDocumentMoniker": "playlist\\Play.cs",
+              "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Play.cs",
+              "RelativeToolTip": "playlist\\Play.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:04:20.089Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -66,26 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Play.cs",
-              "DocumentMoniker": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Play.cs",
-              "RelativeDocumentMoniker": "playlist\\Play.cs",
-              "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Play.cs",
-              "RelativeToolTip": "playlist\\Play.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAEYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:04:20.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SongQueue.cs",
               "DocumentMoniker": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\SongQueue.cs",
               "RelativeDocumentMoniker": "playlist\\SongQueue.cs",
-              "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\SongQueue.cs*",
-              "RelativeToolTip": "playlist\\SongQueue.cs*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\SongQueue.cs",
+              "RelativeToolTip": "playlist\\SongQueue.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAHcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T08:02:45.62Z",
               "EditorCaption": ""
@@ -98,20 +99,20 @@
               "RelativeDocumentMoniker": "playlist\\Delete.cs",
               "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Delete.cs",
               "RelativeToolTip": "playlist\\Delete.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwDUAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwB4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T18:06:24.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Program.cs",
               "RelativeDocumentMoniker": "playlist\\Program.cs",
               "ToolTip": "C:\\Users\\ortig\\source\\repos\\LinkedList\\playlist\\playlist\\Program.cs",
               "RelativeToolTip": "playlist\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T18:01:55.081Z",
               "EditorCaption": ""

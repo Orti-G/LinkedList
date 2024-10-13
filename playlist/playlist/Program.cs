@@ -42,7 +42,7 @@ namespace playlist
 				Delete.DeleteContent();
 			}
 			else{
-                Play.PlayMusic();
+				Play.PlayMusic();
 			}
 			Console.ReadKey(true);
 		}

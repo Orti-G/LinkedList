@@ -23,7 +23,10 @@ namespace playlist
 		private static int SelectedIndex;
         public static LinkedList<string> queueList = new LinkedList<string>();
         private static bool Once = false;
-		public static void PlayMusic(){
+        private static int totalSongs;
+        public static int count = 0;
+
+        public static void PlayMusic(){
 			Console.Clear();
 			Console.WriteLine("What Music do you want to play?");
 			musicChoice = Console.ReadLine();
@@ -55,9 +58,55 @@ namespace playlist
 		}
 		
 		public static void Flow(){
-			int x = Run();
+			SongQueue.Store();
+            musicChoice = SongQueue.navQueue[count];
+			totalSongs = SongQueue.navQueue.Count;
+            int x = Run();
 			
-		}
+            if (x == 0)
+            {
+                for (; ; )
+                {
+                    Console.Clear();
+					queueList.Clear();
+					SongQueue.navQueue.Clear();
+					SongQueue.OnceQueue = false;
+					Once = false;
+					count = 0;
+                    Program.Main();
+                }
+            }
+
+            else if (x == 1)
+            {
+                for (; ; )
+                {
+                    SongQueue.Queue();
+                }
+            }
+            else
+            {
+				traverseQueue();
+            }
+        }
+		public static void traverseQueue() 
+		{
+			if (count == totalSongs - 1)
+			{
+				count = 0;
+			}
+			else 
+			{
+				count++;
+			}
+
+            for (; ; )
+            {
+                Console.Clear();
+				Flow();
+            }
+
+        }
 		public static void MusicLoaded(){
 			Methods method = new Methods();
 			Console.Clear();
